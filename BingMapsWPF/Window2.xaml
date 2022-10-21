@@ -1,0 +1,24 @@
+﻿<Window x:Class="BingMapsWPF.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingMapsWPF"
+        mc:Ignorable="d"
+        Title="Window2" Height="200" Width="300">
+    <Grid>
+        <Grid>
+            <TextBlock HorizontalAlignment="Center" Margin="0,28,0,0" TextWrapping="Wrap" Text="Please Enter Library Name" VerticalAlignment="Top" Width="210" TextAlignment="Center"/>
+            <TextBlock x:Name="ERROR" HorizontalAlignment="Left" Margin="42,126,0,0" TextWrapping="Wrap" Text="A directory already exists with that name " VerticalAlignment="Top" Width="224" Opacity="0.5" Visibility="Hidden"/>
+            <Button x:Name="Enter" Content="Enter" HorizontalAlignment="Left" Margin="229,0,0,0" VerticalAlignment="Center" Click="Enter_Click"/>
+            <TextBlock x:Name="TempDirectory" HorizontalAlignment="Left" Margin="1,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Opacity="0.5"/>
+            <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="11,0,0,9" VerticalAlignment="Bottom" Height="19" Width="39" Click="BackButton_Click"/>
+
+
+
+            <Label x:Name="backstatus" Content="no" HorizontalAlignment="Left" Margin="215,-2,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        </Grid>
+        <TextBox x:Name="LibraryNameBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="193" Margin="32,0,0,0"/>
+
+    </Grid>
+</Window>

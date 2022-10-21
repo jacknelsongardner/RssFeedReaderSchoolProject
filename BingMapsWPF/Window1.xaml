@@ -1,0 +1,14 @@
+﻿<Window x:Class="BingMapsWPF.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingMapsWPF"
+        mc:Ignorable="d"
+        Title="Window1" Height="200" Width="300">
+    <Grid>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="182,97,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,25,0,0" TextWrapping="Wrap" Text="Welcome new user! Please select a directory for your RSS feed library (don't worry, you can change this later)" VerticalAlignment="Top" Height="67" Width="243"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BetterFolderBrowser" Version="1.2.0" />
+    <PackageReference Include="CrossPlatformLibrary.WebBrowser" Version="3.0.0" />
+    
+    <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
+    
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1150.38" />
+    <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+    
+    <PackageReference Include="SimpleFeedReader" Version="1.0.9" />
+    
+    <PackageReference Include="Tree" Version="1.0.4" />
+    
+    <PackageReference Include="XMLFileReader" Version="1.0.1" />
+    
+    <PackageReference Include="xpath-webbrowser.XPathWebBrowser" Version="1.0.8" />
+  </ItemGroup>
+
+
+
+</Project>

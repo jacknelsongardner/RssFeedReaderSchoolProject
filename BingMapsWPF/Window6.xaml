@@ -1,0 +1,22 @@
+﻿<Window x:Class="BingMapsWPF.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingMapsWPF"
+        mc:Ignorable="d"
+        Title="Window6" Height="250" Width="200">
+    <Grid>
+        <Grid>
+            <TextBox x:Name="hoursBox" HorizontalAlignment="Left" Margin="94,58,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="72"/>
+            <TextBox x:Name="minutesBox" HorizontalAlignment="Left" Margin="94,90,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="72"/>
+            <TextBox x:Name="daysBox" HorizontalAlignment="Left" Margin="94,119,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="72"/>
+            <TextBlock HorizontalAlignment="Left" Margin="28,22,0,0" TextWrapping="Wrap" Text="Please set the time interval" VerticalAlignment="Top" Width="166"/>
+            <Button x:Name="enterButton" Content="Enter" HorizontalAlignment="Left" Margin="127,183,0,0" VerticalAlignment="Top" Click="enterButton_Click" Width="39"/>
+
+
+
+        </Grid>
+        <TextBlock TextWrapping="Wrap" Margin="10,56,114,46"><Run Text="Hours"/><LineBreak/><Run/><LineBreak/><Run Text="Minutes"/><LineBreak/><Run/><LineBreak/><Run Text="Days"/></TextBlock>
+    </Grid>
+</Window>

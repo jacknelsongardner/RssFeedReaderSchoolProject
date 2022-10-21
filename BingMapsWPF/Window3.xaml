@@ -1,0 +1,15 @@
+﻿<Window x:Class="BingMapsWPF.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingMapsWPF"
+        mc:Ignorable="d"
+        Title="Window3" Height="200" Width="300">
+    <Grid>
+        <TextBox x:Name="linkBox" HorizontalAlignment="Left" Margin="42,74,0,0" TextWrapping="Wrap" Text="paste link here" VerticalAlignment="Top" Width="180"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,30,0,0" TextWrapping="Wrap" Text="Please enter RSS link and name below..." VerticalAlignment="Top" Height="46" Width="203"/>
+        <TextBox x:Name="nameBox" HorizontalAlignment="Left" Margin="42,97,0,0" TextWrapping="Wrap" Text="enter name here" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="enterButton" Content="Enter" HorizontalAlignment="Left" Margin="167,97,0,0" VerticalAlignment="Top" Width="48" Click="enterButton_Click"/>
+    </Grid>
+</Window>
